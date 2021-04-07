@@ -1,6 +1,6 @@
 require('newrelic');
 const express = require('express');
-const db = require('../database/mysql/connection.js');
+const db = require('../database/connection.js');
 
 const app = express();
 const port = 5000;
